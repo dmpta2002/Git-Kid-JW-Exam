@@ -35,7 +35,7 @@ correct_answers = ["C", "B", "B", "B", "A", "A", "C", "B", "C", "B"]
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Construct the file path for the video file
-video_file = os.path.join(current_dir, r"C:\Users\dmpta\OneDrive\Documents\DISC-MAIN\Education\AI & ML\Code\creadojw.mp4")
+video_file = os.path.join(current_dir, r"C:\Users\dmpta\OneDrive\Documents\DISC-MAIN\Education\Git\Git Kid JW Exam\creadojw.mp4")
 
 # Display the video
 st.video(video_file) 
