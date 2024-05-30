@@ -34,11 +34,7 @@ correct_answers = ["C", "B", "B", "B", "A", "A", "C", "B", "C", "B"]
 # Get the current working directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Construct the file path for the video file
-video_file = os.path.join(current_dir, "creadojw.mp4")
 
-# Display the video
-st.video(video_file) 
 
 # Display questions and collect answers
 answers = []
